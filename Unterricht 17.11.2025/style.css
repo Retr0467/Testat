@@ -1,0 +1,39 @@
+.div1 {
+    color: yellow;
+}
+
+h1 {
+    color: rgb(113, 63, 63);
+    outline-style: dotted;
+    outline-color: #ff0000;
+
+}
+
+h2 {
+    color: green;
+    background-color: black;
+    width: 50%;
+    line-height: 2em;
+}
+
+h1,
+h2 {
+    color: grey;
+}
+
+#did1 {
+    color: black;
+}
+
+ol b {
+    color: green;
+}
+
+li:nth-child(odd) {
+    color: blue;
+}
+
+a:hover {
+    background-color: yellow;
+
+}
