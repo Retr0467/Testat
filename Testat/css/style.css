@@ -1,8 +1,13 @@
 h1 {
     color: black;
     background-color: aquamarine;
+    width: 50%;
+        line-height: 2em;
 }
 
 a:hover {
     background-color: red;
+}
+header {
+    line-height: 20px;
 }

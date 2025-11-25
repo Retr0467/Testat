@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elemenet 1.3S</title>
+</head>
+
+<body>
+    <!-- <a href="https://noelhaldi.ch">
+        <img src="images/images.jpg" width="50%" height="300px" alt="S-Class">
+    </a>
+    <p>&#129370;</p> -->
+
+    <form action="index.html" method="get">
+        <label for="vorname"> Vorname:</label> <!-- alte variante --> <br>
+        <input type="text" name="vorname" id="vorname" placeholder="Vorname">
+
+        <br>
+        <label> Nachname: <br> <!-- neue variante -->
+            <input type="text" name="nachname" placeholder="Nachname" required>
+        </label>
+        <br>
+        <label> Werbung OK?:</label>
+        <input type="checkbox" name="ok">
+
+        <br>
+
+        <select name="Land" id="">
+            <option value="ch">Schweiz</option>
+            <option value="at">Österreich</option>
+            <option value="?">Andere</option>
+        </select>
+
+        <input type="submit" name="speichern" value="Speichern"> <!--submit ist ein button-->
+
+    </form>
+
+</body>
+
+</html>
