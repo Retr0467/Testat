@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quintessential&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 h1 {
     color: black;
     background-color: aquamarine;
     width: 50%;
         line-height: 2em;
+        font-family: 'Ubuntu', sans-serif;
 }
 
 a:hover {
-    background-color: red;
+    background-color: lightblue;
 }
 header {
     line-height: 20px;
@@ -34,4 +36,22 @@ img {
     width: 200px;
     height: 300px;
     border: 1px solid black;
+}
+li.title {
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+li {
+    padding: 5px;
+    list-style-type: circle;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img.news1 {
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+
 }
