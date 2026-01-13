@@ -40,18 +40,31 @@ img {
 li.title {
     list-style-type: none;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
 li {
     padding: 5px;
     list-style-type: circle;
     font-family: 'Ubuntu', sans-serif;
+    background-image: radial-gradient(rgba(244, 4, 4, 0.2), rgba(250, 137, 137, 0.2));
 }
 
 img.news1 {
     border: 1px solid black;
     width: 500px;
     height: auto;
-
+    box-shadow: 10px 10px 5px grey;
+    
+    }
+    
+                :focus {
+                    background-color: lightgrey;
+                }
+        
+                cite {
+                    box-shadow: 5px 5px 5px grey;
+                }
+        
+                p {
+                    background-image: linear-gradient(rgba(244, 4, 4, 0.2), rgba(250, 137, 137, 0.2));
 }
