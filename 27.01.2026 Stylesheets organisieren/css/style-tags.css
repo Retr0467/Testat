@@ -1,0 +1,9 @@
+/* Grundeinstellungen über TAG-Namen*/
+div {
+    background-color: blue;
+    background-color: var(--hauptfarbe);
+}
+
+a {
+    color: var(--hauptfarbe);
+}

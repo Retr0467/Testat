@@ -1,0 +1,27 @@
+/*@import url("style-tags.css");
+@import url("class.css");
+
+/*Variablen :root ist ein hohes verzeichnis im HTML deswegen :root
+:root {
+    --hauptfarbe: #3498db;
+}*/
+
+
+.b2 {
+    clear: right;
+}
+
+
+.container {
+    border: 1px solid red;
+}
+
+.container>div {
+    width: 100px;
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+
+}
